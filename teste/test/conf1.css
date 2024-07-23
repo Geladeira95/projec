@@ -1,0 +1,64 @@
+/* CSS dentro do conf3.css do iframe */
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.text_grande {
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.text_pequeno {
+  text-align: justify;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.sidebar ul li a {
+  transition: color 0.3s;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+
+.light-mode p h1 h2{
+  background-color: #0F1626;
+  color: #ffffff;
+
+}
+
+a {
+  transition: color 0.3s;
+  text-decoration: none; /* Remover sublinhado dos links, opcional */
+}
+
+.light-mode a {
+  color: #000000; /* Cor padrão do link em modo claro */
+}
+
+.dark-mode a {
+  color: #ffffff; /* Cor personalizada do link em modo escuro */
+}
